@@ -24,7 +24,7 @@ namespace WebApplication2.Controllers
 
         public IActionResult Contact()
         {
-            ViewData["Message"] = "Your contact page.";
+            ViewData["Message"] = "Your contact page. Add your contacts here";
 
             return View();
         }
